@@ -6,11 +6,27 @@
     line-height: 2;
 }
 
+img {
+    max-width: 100%;
+}
+
 /*? Utilities */
 
 
 /*? Header */
+.header-init{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
 
+.header-init a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;    
+}
 
 /*? Main */
 
