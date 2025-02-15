@@ -2,12 +2,21 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial;
     line-height: 2;
 }
 
 img {
     max-width: 100%;
+}
+.btn{
+    background-color: #dca100;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 /*? Utilities */
@@ -15,11 +24,14 @@ img {
 
 /*? Header */
 .header-init{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url(../img/header.jpg);
     background-size: cover;
     height: 400px;
     color: white;
-    text-align: center;
+    padding: 20px;
 }
 
 .header-init a{
@@ -28,7 +40,96 @@ img {
     margin-right: 20px;    
 }
 
+.header-init p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
 /*? Main */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.announscement-title{
+    width: 70%;
+    text-align: start;
+    margin-bottom: -50px;
+    font-size: 35px;
+}
+
+.about-container{
+    display: flex;
+    width: 70%;
+    gap: 20px;
+}
+
+.announcement-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    gap: 30px;
+    max-width: 70%;
+}
+
+.announcement-card{
+    background-color: #F2F2F2;
+}
+
+.announcement-item{
+    margin-left: 20px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card-info ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 10px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.card-info li{
+    display: flex;
+    gap: 20px;
+}
+
+.money{
+    color:#85BB65;
+    font-weight: bold;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn-details{
+    display: block;
+    text-align: center;
+    width: 80%;
+}
 
 
 /*? Footer */
