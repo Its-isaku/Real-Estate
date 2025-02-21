@@ -1,9 +1,30 @@
 /*? Glogbal */
+html{
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: arial;
     line-height: 2;
+}
+
+
+p, a, label{ 
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+h3{
+    font-size: 2rem;
 }
 
 img {
@@ -13,10 +34,10 @@ img {
     background-color: #dca100;
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: .5rem 2rem;
     cursor: pointer;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 2rem;
+    border-radius: .5rem;
 }
 
 h2{
@@ -28,12 +49,12 @@ h2{
 .bold-text{
     font-weight: bold;
     text-align: center;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 .light-text{
-    font-size: 14px;
+    font-size: 1.4rem;
     text-align: center;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 
@@ -44,21 +65,21 @@ h2{
     justify-content: space-between;
     background-image: url(../img/header.jpg);
     background-size: cover;
-    height: 400px;
+    height: 40rem;
     color: white;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .header-init a{
     color: white;
     text-decoration: none;
-    margin-right: 20px;    
+    margin-right: 2rem;    
 }
 
 .header-init p{
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .menu-bar{
@@ -66,7 +87,7 @@ h2{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 2rem;
 }
 
 /*? Main */
@@ -75,28 +96,28 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .announscement-title{
     width: 70%;
     text-align: start;
-    margin-bottom: -50px;
-    font-size: 35px;
+    margin-bottom: -5rem;
+    font-size: 3.5rem;
 }
 
 .about-container{
     display: flex;
     width: 70%;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .announcement-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 20px;
-    gap: 30px;
+    margin: 2rem;
+    gap: 3rem;
     max-width: 70%;
 }
 
@@ -106,28 +127,28 @@ h2{
 
 .announcement-item{
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .card-info{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 1rem;
     justify-content: center;
 }
 
 .card-info ul{
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    margin: 10px;
+    gap: 4rem;
+    margin: 1rem;
     font-weight: bold;
     list-style: none;
 }
 
 .card-info li{
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .money{
@@ -138,7 +159,7 @@ h2{
 .btn-container{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 2rem;
 }
 
 .btn-details{
@@ -152,26 +173,26 @@ h2{
 /*! Fix the header */
 .header-contact{
     background-color: orange;
-    padding-top: 10px;
-    padding-bottom: 100px;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
 }
 .header-contact a{
     color: black;
     text-decoration: none;
-    margin-right: 20px;    
+    margin-right: 2rem;    
 }
 
 .header-contact p{
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .main-contact{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .contact-text{
@@ -187,27 +208,27 @@ text-align: center;
 
 .form-container {
     background-color: lightgray;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 1.5rem;
+    border-radius: 1rem;
     width: 70%;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 fieldset {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px dashed black;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: .1rem dashed black;
 }
 
 legend {
-    font-size: 12px;
+    font-size: 1.2rem;
     text-decoration: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
 }
 
 .input-control {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: .2rem;
     align-items: center;
 }
 
@@ -219,20 +240,20 @@ legend {
 .input-control select {
     display: inline-block;
     width: 80%;
-    padding: 10px;
+    padding: 1rem;
     border: none;
 }
 
 .input-control input,textarea {
     width: 80%;
-    padding: 5px;
+    padding: .5rem;
     border: none;
 }
 
 .date-hour-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .date-hour-container .input-control {
@@ -249,7 +270,7 @@ legend {
 .date-hour-container input {
     display: inline-block;
     width: 80%;
-    padding: 5px;
+    padding: .5rem;
     border: none;
 }
 
@@ -257,10 +278,10 @@ legend {
 
 .footer-contact {
     background-color: lightgray;
-    margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid grey;
+    margin: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: .1rem solid grey;
 }
 
 .footer-container {
@@ -278,8 +299,8 @@ legend {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
-    margin: 20px;
+    gap: 2rem;
+    margin: 2rem;
 }
 
 .copyright-container a{
@@ -294,20 +315,42 @@ legend {
 .social-container i{
     text-align: center;
     color: black;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
 }  
 
 .social-container a {
     display: inline-block;
-    border: 1px solid black;
+    border: .1rem solid black;
     border-radius: 50%;
     color: black;
-    width: 30px; 
-    height: 30px; 
+    width: 3rem; 
+    height: 3rem; 
     text-align: center; 
-    line-height: 30px; 
-    margin: 5px;
+    line-height: 3rem; 
+    margin: .5rem;
 }
 
 /*? About */
+
+
+
+/*? Blog */
+
+
+
+/** Media */
+
+
+
+/*? Desktop */
+
+
+
+/*? Tablet */
+
+
+
+/*? Phone */
+
+
