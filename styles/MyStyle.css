@@ -122,10 +122,17 @@ h2{
     font-size: 3.5rem;
 }
 
-.about-container{
-    display: flex;
-    width: 70%;
-    gap: 2rem;
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 20px; /* Adjust the gap as needed */
+    width: 70%; /* Ensure the container takes 70% width */
+    margin: 0 auto; /* Center the container */
+}
+
+.item-container {
+    box-sizing: border-box;
+    margin: 10px 0; /* Adjust the margin as needed */
 }
 
 .announcement-container {
@@ -355,13 +362,16 @@ legend {
 }
 
 .about-container {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 20px; /* Adjust the gap as needed */
+    width: 70%; /* Ensure the container takes 70% width */
+    margin: 0 auto; /* Center the container */
+}
+
+.item-container {
+    box-sizing: border-box;
+    margin: 10px 0; /* Adjust the margin as needed */
 }
 
 .about-card {
