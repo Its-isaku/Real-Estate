@@ -347,18 +347,195 @@ legend {
 }
 
 /*? About */
+.main-about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px;
+}
+
+.about-card {
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.about-card img {
+    width: 100%;
+}
+
+.about-card h1 {
+    margin: 10px 0;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.about-card p {
+    margin: 10px 0;
+    font-size: 2rem;
+    color: #4e4e4e;
+}
 
 
 
 /*? Blog */
+.main-blog-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
 
+.blog-left-container{
+    width: 50%;
+    padding: 20px;
+}
+
+.blog-left-container h1{
+    font-size: 4.5rem;
+}
+
+.blog-left-container p{
+    font-size: 2rem;
+    color: #4e4e4e;
+}
+
+.blog-title{
+    border-bottom: 2px solid #808080;
+    padding-bottom: 10px; 
+}
+
+.top-5 h1 {
+    font-size: 3.5rem; 
+    margin-bottom: 10px; 
+    color: #333; 
+}
+
+.top-5 ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.top-5 li {
+    margin-bottom: 20px;
+}
+
+.top-5 h3 {
+    font-size: 2.5rem; 
+    margin-bottom: 5px; 
+    color: #555; 
+}
+
+.top-5 p {
+    font-size: 2rem; 
+    color: #4e4e4e;
+}
+
+.blog-right-container{
+    width: 50%;
+    padding: 20px;
+}
+
+.blog-right-container {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+}
+
+.blog-right-container img {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
 
 
 /** -----------Media----------- */
 /*? Tablet */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1057px){
     .menu-nav {
         display: flex;
+    }
+
+    .announcement-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .announcement-card{
+        width: 130%;
+    }
+
+    .about-container{
+        width: 70%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        margin: 1rem;
+        font-weight: bold;
+        list-style: none;
+    }
+
+    .input-control {
+        display: flex;
+        margin-bottom: .2rem;
+        align-items: center;
+    }
+
+    .input-control label {
+        display: inline-block;
+        padding: 1rem;
+        width: 20%;
+    }
+
+    .main-blog-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 2.5rem;
+        padding: 20px;
+    }
+
+    .blog-left-container{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .blog-right-container{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .blog-right-container img {
+        position: relative; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 8px;
     }
 }
 
@@ -370,7 +547,7 @@ legend {
     }
 
     .menu-nav{
-        display: none; 
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 100px;
@@ -424,6 +601,53 @@ legend {
 
     .announcement-card{
         width: 130%;
+    }
+
+    .footer-contact {
+        background-color: lightgray;
+        margin: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: .1rem solid grey;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .input-control {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: .2rem;
+        align-items: center;
+    }
+
+    legend {
+        font-size: 2rem;
+        text-decoration: uppercase;
+        letter-spacing: .2rem;
+    }
+
+    .date-hour-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about-container{
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-card {
+        width: 90%;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
     }
 }
 
